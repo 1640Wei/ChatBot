@@ -11,10 +11,10 @@ Hello, I am Wei. 💬
 - **Python**:
 - **Flask**:
 - **jQuery**:
-- **CSS**:
-- **HTML**:
-- **REST API**:
-- **Bootstrap**:
+- **CSS**
+- **HTML**
+- **REST API**
+- **Bootstrap**
 
 ### Project Structure:：
 - `static`
@@ -27,9 +27,32 @@ Hello, I am Wei. 💬
 
 
 ### Notice:
-#### 1. Hugging Face - Transformers Library
+#### 1. Framework - Flask
 
-1. **Load Pretrained Model**
+1-1. **Import Flask modules and create the application**
+
+- `Flask` is a lightweight web application framework that allows you to easily build and deploy web applications.
+  
+- `render_template` is used to render HTML templates.
+  
+- `request` allows you to access user request data.
+  
+- `jsonify` is used to convert dictionaries or other structured data into JSON format.
+
+```python
+```
+
+1-2. ****
+
+1-3. ****
+
+1-4. ****
+
+1-5. ****
+
+#### 2. Hugging Face - Transformers Library
+
+2-1. **Load Pretrained Model**
 
 - AutoTokenizer: This class handles the tokenization of the model, converting input into a format understandable by the model.
 
@@ -41,7 +64,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
 model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 ```
-2. **Process Model Input**
+2-2. **Process Model Input**
 
 - Use the tokenizer to convert user input into a format the model can process. Here, the encode function is used, and the result is converted into a PyTorch tensor.
 
@@ -49,7 +72,7 @@ model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
 new_user_input_ids = tokenizer.encode(str(text) + tokenizer.eos_token, return_tensors='pt')
 ```
 
-3. **Perform Inference**
+2-3. **Perform Inference**
 
 - Use the generate function for model inference, generating the model's response. Specify the maximum generation length and the end token's ID.
   
@@ -57,7 +80,7 @@ new_user_input_ids = tokenizer.encode(str(text) + tokenizer.eos_token, return_te
 chat_history_ids = model.generate(bot_input_ids, max_length=1000, pad_token_id=tokenizer.eos_token_id)
 ```
 
-4. **Process Model Output**
+2-4. **Process Model Output**
 
 - Use the decode function of the tokenizer to convert the model-generated tokens into human-readable text. Additionally, skip_special_tokens is used here to exclude special tokens from the generated output.
 
