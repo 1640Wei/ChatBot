@@ -27,7 +27,11 @@ Hello, I am Wei. 💬
 
 
 ### Notice:
-####1. Hugging Face - Transformers Library
+#### 1. Hugging Face - Transformers Library
+
+1.Load Pretrained Model
+
+
 
 
 ### Update Log:
