@@ -8,9 +8,8 @@ Hello, I am Wei. 💬
 ### Description:
 
 ### Technologies Used:
-- **Python**:
-- **Flask**:
-- **jQuery**:
+- **Python**: python programming language
+- **Flask**: A lightweight Python web application framework used for rapid development of web applications.
 - **CSS**
 - **HTML**
 - **REST API**
