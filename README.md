@@ -11,7 +11,11 @@ Hello, I am Wei. 📋
 - **Python**: Python programming language.  
 
 ### Project Structure:：
-- `c.py`
+- `static`
+  - `style.css`:
+- `templates`
+  - `chat.html`:
+- `app.py`:
 
 ### Example:
 
