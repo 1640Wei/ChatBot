@@ -1,4 +1,4 @@
-Hello, I am Wei. 📋
+Hello, I am Wei. 💬
 ======
 
 ### Project Name: ChatBot-python
@@ -20,7 +20,7 @@ Hello, I am Wei. 📋
 - `static`
   - `style.css`:Defining the appearance and style of elements on a webpage.
 - `templates`
-  - `chat.html`:
+  - `chat.html`:Markup the content structure on the webpage, such as text, images, and links.
 - `app.py`:
 
 ### Example:
@@ -35,7 +35,7 @@ Hello, I am Wei. 📋
 ***
 ### Thanks:
 
-📋 I hope you enjoy this project! If you have any questions or suggestions, feel free to reach out at any time. 📋
+💬 I hope you enjoy this project! If you have any questions or suggestions, feel free to reach out at any time. 💬
 
 ✉️ HTY140226@gmail.com
 
