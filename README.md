@@ -8,11 +8,11 @@ Hello, I am Wei. 📋
 ### Description:
 
 ### Technologies Used:
-- **Python**: Python programming language.  
+- Python, Flask, jQuery, CSS, HTML, REST API, Bootstrap
 
 ### Project Structure:：
 - `static`
-  - `style.css`:
+  - `style.css`:Defining the appearance and style of elements on a webpage.
 - `templates`
   - `chat.html`:
 - `app.py`:
