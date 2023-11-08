@@ -18,10 +18,10 @@ Hello, I am Wei. 💬
 
 ### Project Structure:：
 - `static`
-  - `style.css`:Defining the appearance and style of elements on a webpage.
+  - `style.css`: Defining the appearance and style of elements on a webpage.
 - `templates`
-  - `chat.html`:Markup the content structure on the webpage, such as text, images, and links.
-- `app.py`:
+  - `chat.html`: Markup the content structure on the webpage, such as text, images, and links.
+- `app.py`: It implements a conversational app based on the DialoGPT-medium model using the Flask framework and the Hugging Face transformers library.
 
 ### Example:
 
