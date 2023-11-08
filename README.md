@@ -8,7 +8,13 @@ Hello, I am Wei. 📋
 ### Description:
 
 ### Technologies Used:
-- Python, Flask, jQuery, CSS, HTML, REST API, Bootstrap
+- **Python**:
+- **Flask**:
+- **jQuery**:
+- **CSS**:
+- **HTML**:
+- **REST API**:
+- **Bootstrap**:
 
 ### Project Structure:：
 - `static`
