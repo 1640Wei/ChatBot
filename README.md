@@ -31,7 +31,16 @@ Hello, I am Wei. 💬
 
 1.Load Pretrained Model
 
+- AutoTokenizer: This class handles the tokenization of the model, converting input into a format understandable by the model.
 
+- AutoModelForCausalLM: This class, associated with the model, is responsible for loading and using the model.
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-medium")
+model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-medium")
+```
 
 
 ### Update Log:
